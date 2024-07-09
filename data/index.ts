@@ -1,4 +1,3 @@
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -9,9 +8,11 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I am committed to building strong client relationships through transparent and effective communication.",
+    title:
+      "I am committed to building strong client relationships through transparent and effective communication.",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] text-sm",
+    className:
+      "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] text-sm",
     imgClassName: "w-full h-full opacity-30",
     titleClassName: "justify-end",
     img: "/b1.jpeg",
@@ -21,7 +22,8 @@ export const gridItems = [
     id: 2,
     title: "Flexible Time Zone Communications",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2 text-xs lg:text-sm md:text-xs",
+    className:
+      "lg:col-span-2 md:col-span-3 md:row-span-2 text-xs lg:text-sm md:text-xs",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
@@ -76,9 +78,15 @@ export const projects = [
     title: "PodNexus",
     des: "AI SaaS platform designed to revolutionize the way you create, discover, and enjoy podcasts. Leveraging advanced technologies, PodNexus offers features such as text-to-audio conversion with multi-voice AI, podcast thumbnail image generation, and seamless playback.",
     img: "/podnexus.svg",
-    iconLists: ["/next.svg", "/tail.svg","/ts.svg", "/clerk.png", "/sentry-2.svg"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/clerk.png",
+      "/sentry-2.svg",
+    ],
     link: "https://github.com/ntehseen/podnexus",
-    liveLink: "https://podnexus.vercel.app/"
+    liveLink: "https://podnexus.vercel.app/",
   },
 
   {
@@ -88,7 +96,7 @@ export const projects = [
     img: "/florencia-florist.png",
     iconLists: ["/html.svg", "/css.svg", "/gsap.svg", "/js.svg"],
     link: "https://github.com/ntehseen/FlorenciaFlorist",
-    liveLink: "https://ntehseen.github.io/FlorenciaFlorist/"
+    liveLink: "https://ntehseen.github.io/FlorenciaFlorist/",
   },
   {
     id: 3,
@@ -97,7 +105,7 @@ export const projects = [
     img: "/iamnacho.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg", "/bootstrap.svg"],
     link: "https://github.com/ntehseen/IAmNachoMama",
-    liveLink: "https://ntehseen.github.io/IAmNachoMama/"
+    liveLink: "https://ntehseen.github.io/IAmNachoMama/",
   },
   {
     id: 4,
@@ -106,7 +114,7 @@ export const projects = [
     img: "/verticle-slider.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg"],
     link: "https://github.com/ntehseen/Vertical-Slider",
-    liveLink: "https://ntehseen.github.io/Vertical-Slider/"
+    liveLink: "https://ntehseen.github.io/Vertical-Slider/",
   },
   {
     id: 5,
@@ -115,7 +123,7 @@ export const projects = [
     img: "/Layman.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg"],
     link: "https://github.com/ntehseen/The-Layman-Hall-Theater",
-    liveLink: "https://ntehseen.github.io/The-Layman-Hall-Theater/"
+    liveLink: "https://ntehseen.github.io/The-Layman-Hall-Theater/",
   },
   {
     id: 6,
@@ -124,7 +132,7 @@ export const projects = [
     img: "/calc-js.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg"],
     link: "https://github.com/ntehseen/JavaScript-Calculator",
-    liveLink: "https://ntehseen.github.io/JavaScript-Calculator/"
+    liveLink: "https://ntehseen.github.io/JavaScript-Calculator/",
   },
   {
     id: 7,
@@ -133,16 +141,22 @@ export const projects = [
     img: "/blurry.jpg",
     iconLists: ["/html.svg", "/css.svg", "/js.svg"],
     link: "https://github.com/ntehseen/Blurry-Loader",
-    liveLink: "https://ntehseen.github.io/Blurry-Loader/"
+    liveLink: "https://ntehseen.github.io/Blurry-Loader/",
   },
   {
     id: 8,
     title: "Motor Vehicle Collisions in New York City Analysis Dashboard",
     des: "Dashboard analyzing motor vehicle collisions in NYC using Python, Pandas, and Matplotlib.",
     img: "/motor-veh.png",
-    iconLists: ["/python.svg", "/pandas.svg", "/matplotlib.svg", "/Streamlit.svg"],
+    iconLists: [
+      "/python.svg",
+      "/pandas.svg",
+      "/matplotlib.svg",
+      "/Streamlit.svg",
+    ],
     link: "https://github.com/ntehseen/Motor-Vehicle-Collisions-in-New-York-City-Analysis-Dashboard",
-    liveLink: "https://github.com/ntehseen/Motor-Vehicle-Collisions-in-New-York-City-Analysis-Dashboard"
+    liveLink:
+      "https://github.com/ntehseen/Motor-Vehicle-Collisions-in-New-York-City-Analysis-Dashboard",
   },
   {
     id: 9,
@@ -151,7 +165,8 @@ export const projects = [
     img: "/cred_fraud.jpg",
     iconLists: ["/python.svg", "/tensorflow.svg", "/Jupyter.svg"],
     link: "https://github.com/ntehseen/Data-Balancing-with-Gen-AI-Credit-Card-Fraud-Detection",
-    liveLink: "https://github.com/ntehseen/Data-Balancing-with-Gen-AI-Credit-Card-Fraud-Detection"
+    liveLink:
+      "https://github.com/ntehseen/Data-Balancing-with-Gen-AI-Credit-Card-Fraud-Detection",
   },
   {
     id: 10,
@@ -160,16 +175,24 @@ export const projects = [
     img: "/pre-sal-rev.png",
     iconLists: ["/pandas.svg", "/numpy.svg", "/sklearn.svg"],
     link: "https://github.com/ntehseen/-Predict-Sales-Revenue-with-scikit-learn",
-    liveLink: "https://github.com/ntehseen/-Predict-Sales-Revenue-with-scikit-learn"
+    liveLink:
+      "https://github.com/ntehseen/-Predict-Sales-Revenue-with-scikit-learn",
   },
   {
     id: 11,
     title: "Facial Expression Classification Using Residual Neural Nets",
     des: "Classify facial expressions using residual neural networks with Pandas, TensorFlow, and Keras.",
     img: "/Emotion-AI-Detection.png",
-    iconLists: ["/pandas.svg", "/tensorflow.svg", "/keras.svg", "/neuralnet.svg", "/OpenCV.svg"],
+    iconLists: [
+      "/pandas.svg",
+      "/tensorflow.svg",
+      "/keras.svg",
+      "/neuralnet.svg",
+      "/OpenCV.svg",
+    ],
     link: "https://github.com/ntehseen/Facial-Expression-Classification-Using-Residual-Neural-Nets",
-    liveLink: "https://github.com/ntehseen/Facial-Expression-Classification-Using-Residual-Neural-Nets"
+    liveLink:
+      "https://github.com/ntehseen/Facial-Expression-Classification-Using-Residual-Neural-Nets",
   },
   {
     id: 12,
@@ -178,14 +201,15 @@ export const projects = [
     img: "/title.png",
     iconLists: ["/tensorflow.svg", "/sklearn.svg", "/Jupyter.svg"],
     link: "https://github.com/ntehseen/Real-vs-Fake-News-Classification-NLP",
-    liveLink: "https://github.com/ntehseen/Real-vs-Fake-News-Classification-NLP",
+    liveLink:
+      "https://github.com/ntehseen/Real-vs-Fake-News-Classification-NLP",
   },
   {
     id: 13,
     title: "1984 Book vs. Album: A Unique NLP Project",
     des: "Exploring '1984' book and album using NLP techniques, including summarization, sentiment analysis, and word clouds.",
     img: "/title1984.png",
-    iconLists: [ "/pandas.svg", "/Jupyter.svg"],
+    iconLists: ["/pandas.svg", "/Jupyter.svg"],
     link: "https://github.com/ntehseen/1984_Book_vs_Album_NLP",
     liveLink: "https://github.com/ntehseen/1984_Book_vs_Album_NLP",
   },
@@ -196,7 +220,8 @@ export const projects = [
     img: "/4.jpg",
     iconLists: ["/seaborn.svg", "/Jupyter.svg"],
     link: "https://github.com/ntehseen/Data-Science/tree/main/Projects/1.machine-learning/2.Open-source/01.sonar-rock-vs-mine-prediction",
-    liveLink:  "https://github.com/ntehseen/Data-Science/tree/main/Projects/1.machine-learning/2.Open-source/01.sonar-rock-vs-mine-prediction"
+    liveLink:
+      "https://github.com/ntehseen/Data-Science/tree/main/Projects/1.machine-learning/2.Open-source/01.sonar-rock-vs-mine-prediction",
   },
   // {
   //   id: 14,
@@ -264,11 +289,10 @@ export const projects = [
 //     title: "Director of AlphaStream Technologies",
 //   },
 
-
 export const testimonials = [
   {
     quote:
-      "Working with Navid Tehseen was an absolute pleasure. Their attention to detail, creativity, and commitment to excellence truly set them apart. I highly recommend Navid for anyone seeking a top-notch developer. They exceeded my expectations and delivered outstanding results!",
+      "Working with Navid Tehseen was an absolute pleasure. His attention to detail, creativity, and commitment to excellence truly sets him apart. I highly recommend Navid for anyone seeking a top-notch developer. He exceeded my expectations and delivered outstanding results!",
     name: "Gustavo Taveras",
     title: "Full Stack Developer at AlphaPrime Tech",
     img: "/testi1.png",
@@ -280,7 +304,7 @@ export const testimonials = [
     title: "Business Owner",
     img: "/testi2.png",
   },
-  
+
   {
     quote:
       "Navid has excelled in his classwork in the Full Stack course he took with me. His projects are completed on time and are of outstanding quality, earning him a place at the very top of the class.  He has developed his skills to be competitive in all ends of the spectrum from open AI to Rest API.  With his eagerness to learn and his attention to detail, he has become a leader for his classmates, even mentoring other students with their coding and project work. You will find Navid to be an asset to any company. ",
@@ -424,27 +448,27 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",  // Downloaded GitHub icon
+    img: "/git.svg", // Downloaded GitHub icon
     url: "https://github.com/ntehseen",
   },
   {
     id: 2,
-    img: "/link.svg",  // Downloaded LinkedIn icon
+    img: "/link.svg", // Downloaded LinkedIn icon
     url: "https://linkedin.com/in/ntehseen",
   },
   {
     id: 3,
-    img: "/instagram.svg",  // Downloaded Instagram icon
+    img: "/instagram.svg", // Downloaded Instagram icon
     url: "https://instagram.com/navid.tehseen",
   },
   {
     id: 4,
-    img: "/kaggle.svg",  // Downloaded Kaggle icon
+    img: "/kaggle.svg", // Downloaded Kaggle icon
     url: "https://www.kaggle.com/navidtehseen",
   },
   {
     id: 5,
-    img: "/tree.svg",  // Downloaded Linktree icon
+    img: "/tree.svg", // Downloaded Linktree icon
     url: "https://linktr.ee/navid.tehseen",
   },
   {
