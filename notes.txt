@@ -1,0 +1,38 @@
+//Hero Section:
+
+
+Framer: npm i framer-motion clsx tailwind-merge
+
+npm i mini-svg-data-uri
+
+npm i tailwindcss-animate
+
+https://ui.aceternity.com/components/grid-and-dot-backgrounds
+
+next-themes npm : npm i next-themes
+
+//MagicButton : npm i framer-motion clsx tailwind-merge react-element-to-jsx-string
+
+//React-icons : npm install react-icons --save
+
+
+//Navbar : 
+
+//Globe : npm i three three-globe @react-three/fiber @react-three/drei
+
+
+// copy button : npm install react-lottie
+                    npm i --save-dev @types/react-lottie
+
+// Sentry : npx @sentry/wizard@latest -i nextjs
+
+ Sentry auth token : SENTRY_AUTH_TOKEN=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
+
+
+  extend: {
+      colors: {
+        black: {
+          DEFAULT: "#000",
+          100: "#000319",
+          200: "rgba(17, 25, 40, 0.75)",
+          300: "
